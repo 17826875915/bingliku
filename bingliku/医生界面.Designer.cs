@@ -217,7 +217,7 @@
             // 
             // chaxun
             // 
-            this.chaxun.Location = new System.Drawing.Point(525, 32);
+            this.chaxun.Location = new System.Drawing.Point(542, 32);
             this.chaxun.Name = "chaxun";
             this.chaxun.Size = new System.Drawing.Size(92, 23);
             this.chaxun.TabIndex = 5;
@@ -227,7 +227,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(663, 30);
+            this.button1.Location = new System.Drawing.Point(654, 29);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(97, 24);
             this.button1.TabIndex = 6;
@@ -237,7 +237,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(672, 86);
+            this.button2.Location = new System.Drawing.Point(663, 77);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(88, 25);
             this.button2.TabIndex = 7;
