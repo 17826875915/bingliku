@@ -237,7 +237,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(671, 70);
+            this.button2.Location = new System.Drawing.Point(672, 86);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(88, 25);
             this.button2.TabIndex = 7;
@@ -267,14 +267,14 @@
             // 新建病例ToolStripMenuItem
             // 
             this.新建病例ToolStripMenuItem.Name = "新建病例ToolStripMenuItem";
-            this.新建病例ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.新建病例ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.新建病例ToolStripMenuItem.Text = "新建病例";
             this.新建病例ToolStripMenuItem.Click += new System.EventHandler(this.新建病例ToolStripMenuItem_Click);
             // 
             // 退出登录ToolStripMenuItem
             // 
             this.退出登录ToolStripMenuItem.Name = "退出登录ToolStripMenuItem";
-            this.退出登录ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.退出登录ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.退出登录ToolStripMenuItem.Text = "退出登录";
             this.退出登录ToolStripMenuItem.Click += new System.EventHandler(this.退出登录ToolStripMenuItem_Click);
             // 
