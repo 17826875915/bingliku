@@ -130,5 +130,54 @@ namespace bingliku
                 dataGridView1.DataSource = ds.Tables[0];
             }
         }
+        /// <summary>
+        /// 删除医生按钮
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void button3_Click(object sender, EventArgs e)
+        {
+            string text1 = textBox2.Text.Trim();
+            int id = 0;
+            if (text1 == "")
+            {
+                MessageBox.Show("输入为空");
+            }
+            else if (int.TryParse(text1, out id) == false)
+            {
+                MessageBox.Show("请输入数字");
+            }
+            else
+            {
+                MySqlConnection connection = new MySqlConnection(MyConnectionString);
+                MySqlCommand cmd;
+                connection.Open();
+                try
+                {
+                    cmd = connection.CreateCommand();
+                    cmd.CommandText = @"DELETE FROM `bingliku`.`user` WHERE `iduser`='"+id+"';";
+                    int t = cmd.ExecuteNonQuery();
+                    if (t == 0)
+                    {
+                        MessageBox.Show("不存在该ID");
+                    }
+                    else
+                    {
+                        MessageBox.Show("删除成功");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+                finally
+                {
+                    if (connection.State == ConnectionState.Open)
+                    {
+                        connection.Close();
+                    }
+                }
+            }
+        }
     }
 }

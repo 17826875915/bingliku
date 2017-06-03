@@ -121,6 +121,7 @@
             this.button3.TabIndex = 3;
             this.button3.Text = "删除该医生信息";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
