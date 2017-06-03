@@ -72,7 +72,7 @@
             // 
             // denglu
             // 
-            this.denglu.Location = new System.Drawing.Point(163, 216);
+            this.denglu.Location = new System.Drawing.Point(178, 215);
             this.denglu.Name = "denglu";
             this.denglu.Size = new System.Drawing.Size(81, 28);
             this.denglu.TabIndex = 4;
