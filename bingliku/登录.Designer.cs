@@ -33,7 +33,6 @@
             this.yonghu = new System.Windows.Forms.TextBox();
             this.mima = new System.Windows.Forms.TextBox();
             this.denglu = new System.Windows.Forms.Button();
-            this.zhuce = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -73,7 +72,7 @@
             // 
             // denglu
             // 
-            this.denglu.Location = new System.Drawing.Point(35, 181);
+            this.denglu.Location = new System.Drawing.Point(95, 161);
             this.denglu.Name = "denglu";
             this.denglu.Size = new System.Drawing.Size(81, 28);
             this.denglu.TabIndex = 4;
@@ -81,22 +80,11 @@
             this.denglu.UseVisualStyleBackColor = true;
             this.denglu.Click += new System.EventHandler(this.denglu_Click);
             // 
-            // zhuce
-            // 
-            this.zhuce.Location = new System.Drawing.Point(171, 182);
-            this.zhuce.Name = "zhuce";
-            this.zhuce.Size = new System.Drawing.Size(81, 28);
-            this.zhuce.TabIndex = 5;
-            this.zhuce.Text = "注册";
-            this.zhuce.UseVisualStyleBackColor = true;
-            this.zhuce.Click += new System.EventHandler(this.zhuce_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 229);
-            this.Controls.Add(this.zhuce);
             this.Controls.Add(this.denglu);
             this.Controls.Add(this.mima);
             this.Controls.Add(this.yonghu);
@@ -118,7 +106,6 @@
         private System.Windows.Forms.TextBox yonghu;
         private System.Windows.Forms.TextBox mima;
         private System.Windows.Forms.Button denglu;
-        private System.Windows.Forms.Button zhuce;
     }
 }
 
