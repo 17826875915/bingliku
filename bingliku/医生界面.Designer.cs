@@ -264,6 +264,7 @@
             this.管理医生ToolStripMenuItem.Name = "管理医生ToolStripMenuItem";
             this.管理医生ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.管理医生ToolStripMenuItem.Text = "管理医生";
+            this.管理医生ToolStripMenuItem.Click += new System.EventHandler(this.管理医生ToolStripMenuItem_Click);
             // 
             // Form2
             // 

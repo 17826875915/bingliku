@@ -268,5 +268,14 @@ namespace bingliku
             this.Hide();
             f1.Show();
         }
+
+        private void 管理医生ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form7 f7 = new Form7();
+            if (f7.ShowDialog() == DialogResult.OK)
+            {
+                f7.Close();
+            }
+        }
     }
 }
