@@ -50,6 +50,7 @@
             this.其他功能ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.新建病例ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.退出登录ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.管理医生ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.menuStrip1.SuspendLayout();
@@ -237,6 +238,7 @@
             // 
             this.其他功能ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.新建病例ToolStripMenuItem,
+            this.管理医生ToolStripMenuItem,
             this.退出登录ToolStripMenuItem});
             this.其他功能ToolStripMenuItem.Name = "其他功能ToolStripMenuItem";
             this.其他功能ToolStripMenuItem.Size = new System.Drawing.Size(68, 21);
@@ -255,6 +257,13 @@
             this.退出登录ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.退出登录ToolStripMenuItem.Text = "退出登录";
             this.退出登录ToolStripMenuItem.Click += new System.EventHandler(this.退出登录ToolStripMenuItem_Click);
+            // 
+            // 管理医生ToolStripMenuItem
+            // 
+            this.管理医生ToolStripMenuItem.Enabled = false;
+            this.管理医生ToolStripMenuItem.Name = "管理医生ToolStripMenuItem";
+            this.管理医生ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.管理医生ToolStripMenuItem.Text = "管理医生";
             // 
             // Form2
             // 
@@ -306,5 +315,6 @@
         private System.Windows.Forms.ToolStripMenuItem 其他功能ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 新建病例ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 退出登录ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 管理医生ToolStripMenuItem;
     }
 }

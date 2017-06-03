@@ -49,7 +49,10 @@ namespace bingliku
             }
 
             ds_edit.Tables[0].Rows.Clear();
-            
+
+            ///只有权限为3的人可启用该控件
+            if (quanxian == 3)
+                管理医生ToolStripMenuItem.Enabled = true;
             
         }
 
