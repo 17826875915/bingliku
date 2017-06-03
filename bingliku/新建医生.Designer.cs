@@ -206,6 +206,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::bingliku.Properties.Resources.bg;
             this.ClientSize = new System.Drawing.Size(309, 307);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label6);

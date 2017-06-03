@@ -49,8 +49,8 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.其他功能ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.新建病例ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.退出登录ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.管理医生ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.退出登录ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.menuStrip1.SuspendLayout();
@@ -247,29 +247,30 @@
             // 新建病例ToolStripMenuItem
             // 
             this.新建病例ToolStripMenuItem.Name = "新建病例ToolStripMenuItem";
-            this.新建病例ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.新建病例ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.新建病例ToolStripMenuItem.Text = "新建病例";
             this.新建病例ToolStripMenuItem.Click += new System.EventHandler(this.新建病例ToolStripMenuItem_Click);
-            // 
-            // 退出登录ToolStripMenuItem
-            // 
-            this.退出登录ToolStripMenuItem.Name = "退出登录ToolStripMenuItem";
-            this.退出登录ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.退出登录ToolStripMenuItem.Text = "退出登录";
-            this.退出登录ToolStripMenuItem.Click += new System.EventHandler(this.退出登录ToolStripMenuItem_Click);
             // 
             // 管理医生ToolStripMenuItem
             // 
             this.管理医生ToolStripMenuItem.Enabled = false;
             this.管理医生ToolStripMenuItem.Name = "管理医生ToolStripMenuItem";
-            this.管理医生ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.管理医生ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.管理医生ToolStripMenuItem.Text = "管理医生";
             this.管理医生ToolStripMenuItem.Click += new System.EventHandler(this.管理医生ToolStripMenuItem_Click);
+            // 
+            // 退出登录ToolStripMenuItem
+            // 
+            this.退出登录ToolStripMenuItem.Name = "退出登录ToolStripMenuItem";
+            this.退出登录ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.退出登录ToolStripMenuItem.Text = "退出登录";
+            this.退出登录ToolStripMenuItem.Click += new System.EventHandler(this.退出登录ToolStripMenuItem_Click);
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::bingliku.Properties.Resources.bg;
             this.ClientSize = new System.Drawing.Size(799, 348);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.chaxun);

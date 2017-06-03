@@ -34,7 +34,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(80, 53);
+            this.button1.Location = new System.Drawing.Point(159, 130);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(114, 26);
             this.button1.TabIndex = 0;
@@ -44,7 +44,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(80, 166);
+            this.button2.Location = new System.Drawing.Point(159, 177);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(114, 26);
             this.button2.TabIndex = 1;
@@ -56,7 +56,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 262);
+            this.BackgroundImage = global::bingliku.Properties.Resources.bg;
+            this.ClientSize = new System.Drawing.Size(458, 336);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "Form5";

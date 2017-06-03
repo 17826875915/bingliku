@@ -39,7 +39,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label1.Location = new System.Drawing.Point(31, 46);
+            this.label1.Location = new System.Drawing.Point(99, 101);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(76, 19);
             this.label1.TabIndex = 0;
@@ -49,7 +49,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label2.Location = new System.Drawing.Point(50, 100);
+            this.label2.Location = new System.Drawing.Point(118, 155);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(57, 19);
             this.label2.TabIndex = 1;
@@ -57,14 +57,14 @@
             // 
             // yonghu
             // 
-            this.yonghu.Location = new System.Drawing.Point(110, 46);
+            this.yonghu.Location = new System.Drawing.Point(178, 101);
             this.yonghu.Name = "yonghu";
             this.yonghu.Size = new System.Drawing.Size(142, 21);
             this.yonghu.TabIndex = 2;
             // 
             // mima
             // 
-            this.mima.Location = new System.Drawing.Point(110, 98);
+            this.mima.Location = new System.Drawing.Point(178, 153);
             this.mima.Name = "mima";
             this.mima.PasswordChar = '*';
             this.mima.Size = new System.Drawing.Size(142, 21);
@@ -72,7 +72,7 @@
             // 
             // denglu
             // 
-            this.denglu.Location = new System.Drawing.Point(95, 161);
+            this.denglu.Location = new System.Drawing.Point(163, 216);
             this.denglu.Name = "denglu";
             this.denglu.Size = new System.Drawing.Size(81, 28);
             this.denglu.TabIndex = 4;
@@ -84,7 +84,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 229);
+            this.BackgroundImage = global::bingliku.Properties.Resources.bg;
+            this.ClientSize = new System.Drawing.Size(450, 339);
             this.Controls.Add(this.denglu);
             this.Controls.Add(this.mima);
             this.Controls.Add(this.yonghu);

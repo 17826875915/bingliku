@@ -165,6 +165,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::bingliku.Properties.Resources.bg;
             this.ClientSize = new System.Drawing.Size(787, 296);
             this.Controls.Add(this.chaxun);
             this.Controls.Add(this.dataGridView1);
