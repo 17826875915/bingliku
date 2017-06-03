@@ -17,10 +17,39 @@ namespace bingliku
             InitializeComponent();
         }
         string MyConnectionString = "server=localhost;User Id=root;password=123456;Database=bingliku";
-
+        /// <summary>
+        /// 显示所有按钮
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void button2_Click(object sender, EventArgs e)
         {
+            DataSet ds = new DataSet();
+            
+            MySqlConnection connection = new MySqlConnection(MyConnectionString);
+            MySqlCommand cmd;
+            connection.Open();
+            try
+            {
+                cmd = connection.CreateCommand();
+                cmd.CommandText = "select iduser as id,username as name,sex,idcard as IDcard ,power as quanxian from user ";
 
+                MySqlDataAdapter adap = new MySqlDataAdapter(cmd);
+                adap.Fill(ds);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                if (connection.State == ConnectionState.Open)
+                {
+                    connection.Close();
+                }
+            }
+
+            dataGridView1.DataSource = ds.Tables[0];
         }
         /// <summary>
         /// 查询按钮
