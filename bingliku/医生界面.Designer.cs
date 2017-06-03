@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.tuichu = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -46,7 +45,6 @@
             this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.chaxun = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.其他功能ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -56,16 +54,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // tuichu
-            // 
-            this.tuichu.Location = new System.Drawing.Point(698, 326);
-            this.tuichu.Name = "tuichu";
-            this.tuichu.Size = new System.Drawing.Size(87, 25);
-            this.tuichu.TabIndex = 0;
-            this.tuichu.Text = "退出登录";
-            this.tuichu.UseVisualStyleBackColor = true;
-            this.tuichu.Click += new System.EventHandler(this.tuichu_Click);
             // 
             // label1
             // 
@@ -225,19 +213,9 @@
             this.chaxun.UseVisualStyleBackColor = true;
             this.chaxun.Click += new System.EventHandler(this.chaxun_Click);
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(654, 29);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(97, 24);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "新建病例";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(663, 77);
+            this.button2.Location = new System.Drawing.Point(656, 29);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(88, 25);
             this.button2.TabIndex = 7;
@@ -267,14 +245,14 @@
             // 新建病例ToolStripMenuItem
             // 
             this.新建病例ToolStripMenuItem.Name = "新建病例ToolStripMenuItem";
-            this.新建病例ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.新建病例ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.新建病例ToolStripMenuItem.Text = "新建病例";
             this.新建病例ToolStripMenuItem.Click += new System.EventHandler(this.新建病例ToolStripMenuItem_Click);
             // 
             // 退出登录ToolStripMenuItem
             // 
             this.退出登录ToolStripMenuItem.Name = "退出登录ToolStripMenuItem";
-            this.退出登录ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.退出登录ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.退出登录ToolStripMenuItem.Text = "退出登录";
             this.退出登录ToolStripMenuItem.Click += new System.EventHandler(this.退出登录ToolStripMenuItem_Click);
             // 
@@ -284,13 +262,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(799, 348);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.chaxun);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.tuichu);
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MainMenuStrip = this.menuStrip1;
@@ -308,8 +284,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button tuichu;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.GroupBox groupBox1;
@@ -318,7 +292,6 @@
         private System.Windows.Forms.RadioButton idcard;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button chaxun;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
