@@ -58,6 +58,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="管理医生.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="管理医生.Designer.cs">
+      <DependentUpon>管理医生.cs</DependentUpon>
+    </Compile>
     <Compile Include="登录.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -107,6 +113,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="新建病例.resx">
       <DependentUpon>新建病例.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="管理医生.resx">
+      <DependentUpon>管理医生.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="首界面.resx">
       <DependentUpon>首界面.cs</DependentUpon>
