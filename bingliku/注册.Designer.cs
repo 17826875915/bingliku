@@ -54,6 +54,7 @@
             this.label1.Size = new System.Drawing.Size(85, 19);
             this.label1.TabIndex = 0;
             this.label1.Text = "用户名：";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -64,6 +65,7 @@
             this.label2.Size = new System.Drawing.Size(66, 19);
             this.label2.TabIndex = 1;
             this.label2.Text = "密码：";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -74,6 +76,7 @@
             this.label3.Size = new System.Drawing.Size(104, 19);
             this.label3.TabIndex = 2;
             this.label3.Text = "确认密码：";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // groupBox1
             // 
@@ -84,6 +87,7 @@
             this.groupBox1.Size = new System.Drawing.Size(112, 42);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // nv
             // 
@@ -118,6 +122,7 @@
             this.label4.Size = new System.Drawing.Size(66, 19);
             this.label4.TabIndex = 4;
             this.label4.Text = "性别：";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label5
             // 
@@ -128,6 +133,7 @@
             this.label5.Size = new System.Drawing.Size(85, 19);
             this.label5.TabIndex = 5;
             this.label5.Text = "身份证：";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // yonghu
             // 
@@ -135,6 +141,7 @@
             this.yonghu.Name = "yonghu";
             this.yonghu.Size = new System.Drawing.Size(149, 21);
             this.yonghu.TabIndex = 6;
+            this.yonghu.TextChanged += new System.EventHandler(this.yonghu_TextChanged);
             // 
             // mima1
             // 
@@ -143,6 +150,7 @@
             this.mima1.PasswordChar = '*';
             this.mima1.Size = new System.Drawing.Size(149, 21);
             this.mima1.TabIndex = 7;
+            this.mima1.TextChanged += new System.EventHandler(this.mima1_TextChanged);
             // 
             // mima2
             // 
@@ -151,6 +159,7 @@
             this.mima2.PasswordChar = '*';
             this.mima2.Size = new System.Drawing.Size(149, 21);
             this.mima2.TabIndex = 8;
+            this.mima2.TextChanged += new System.EventHandler(this.mima2_TextChanged);
             // 
             // idcard
             // 
@@ -158,6 +167,7 @@
             this.idcard.Name = "idcard";
             this.idcard.Size = new System.Drawing.Size(149, 21);
             this.idcard.TabIndex = 9;
+            this.idcard.TextChanged += new System.EventHandler(this.idcard_TextChanged);
             // 
             // zhuce
             // 
