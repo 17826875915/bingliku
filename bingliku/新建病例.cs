@@ -33,13 +33,37 @@ namespace bingliku
                 + System.DateTime.Now.Month + "-"
                 + System.DateTime.Now.Day;
             textBox6.Text = time;
+
+            //权限集合
+            if (quanxian == 1)
+            {
+                comboBox1.Items.Clear();
+                comboBox1.Items.Add("1-普通医生");
+            }
+            else if (quanxian == 2)
+            {
+                comboBox1.Items.Clear();
+                comboBox1.Items.Add("1-普通医生");
+                comboBox1.Items.Add("2-专家主任");
+            }
+            else if (quanxian == 3)
+            {
+                comboBox1.Items.Clear();
+                comboBox1.Items.Add("1-普通医生");
+                comboBox1.Items.Add("2-专家主任");
+                comboBox1.Items.Add("3-院长");
+            }
         }
 
         private void label6_Click(object sender, EventArgs e)
         {
 
         }
-
+        /// <summary>
+        /// 确认按钮
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void button1_Click(object sender, EventArgs e)
         {
             string name = textBox1.Text.Trim();
@@ -112,7 +136,10 @@ namespace bingliku
            
         }
 
-     
+     /// <summary>
+     /// 得到当前最大病例id
+     /// </summary>
+     /// <returns></returns>
         public int getmaxid()
         {
             DataSet ds = new DataSet();
